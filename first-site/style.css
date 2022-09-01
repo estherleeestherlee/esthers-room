@@ -1,0 +1,21 @@
+body {
+    background: darkseagreen url('img/cookie.jpeg') no-repeat center fixed;
+    background-size: 300px;
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    color: rgb(200, 150, 200);
+    background-color: chartreuse;
+    padding: 50px;
+}
+
+.special {
+    color: bisque;
+    background: rgb(69, 69, 69);
+    font-size: 150%;
+    font-family: cursive;
+    margin: 30px;
+}
+
+/*background 뭉텅이로 저렇게 다 할 수 있지만 bg size 는 따로 background-size 이렇게 써야됨 font-size 는 p tag 아래에 사용됨  family-name e.g. helvetica new romans etc & generic-family e.g. serif sans serif difference   helvetica is represented on the mac but not on the PC so it needs to be written as helvetica, sans-serif as a set to change font but the PC user once downloaded the helvatica font on their computer, it will show up but otherwise, put helvetica and sans serif at the same time sans serif and helvetica are the same thing for each computer*/
