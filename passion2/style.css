@@ -1,0 +1,13 @@
+h1 {
+    border: 2px dotted white;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 40px;
+    width: 300px;
+    background: url(./images/sand.jpeg);
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
