@@ -13,3 +13,11 @@ h1 {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
 }
+h2 {
+    text-indent: 2%;
+    text-shadow: 5px 5px 5px rgba(176, 134, 106, 0.829);
+}
+p {
+    text-indent: 2%;
+    font-size: 148%;
+}
