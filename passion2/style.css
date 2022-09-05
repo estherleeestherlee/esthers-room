@@ -16,8 +16,15 @@ h1 {
 h2 {
     text-indent: 2%;
     text-shadow: 5px 5px 5px rgba(176, 134, 106, 0.829);
+    
 }
 p {
     text-indent: 2%;
     font-size: 148%;
+}
+details {
+    text-indent: 2%;
+}
+hr.new1 {  
+        border-top: 2px dotted rgba(175, 143, 117, 0.812);
 }
