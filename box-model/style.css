@@ -1,0 +1,31 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: cornflowerblue
+}
+
+.content {
+    background-color: rgb(61, 139, 78);
+    color: blanchedalmond;
+    width: 200px;
+    height: 200px; /* making content */
+    padding: 30px;
+    border: 10px solid chartreuse;
+    margin: 50px;
+} 
+
+.border {
+    background-color: rgb(61, 139, 78);
+    color: blanchedalmond;
+    width: 200px;
+    height: 200px; /* making content */
+    padding: 30px;
+    border: 10px solid chartreuse;
+    margin: 50px;
+    box-sizing: border-box;
+} 
+
+/*   * {} <---- carefully use this symbol because it will change your whole codings just putting this at the very top of the coding
