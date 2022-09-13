@@ -1,3 +1,18 @@
-.body {
-    background-image: url(../images/clamshell.gif);
-}
+body {
+    background: rgb(0, 0, 0) url('../images/abalone.gif') center fixed;
+    background-size: 400px;}
+
+    h1 {
+
+    
+    
+        font-size: 80px;
+        color: #000;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
+    }
+    body {
+        text-align: center;
+    }

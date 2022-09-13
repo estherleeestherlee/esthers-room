@@ -12,3 +12,6 @@ h1 {
 body {
     text-align: center;
 }
+body {
+    background: rgb(0, 0, 0) url('../images/clamshell.gif') center fixed;
+    background-size: 400px;}
