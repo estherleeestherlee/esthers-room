@@ -1,0 +1,6 @@
+* {
+    box-sizing: boarder-box;
+} /*short hand for everything (every element on the page) difference between body and box-sizing & * { is boxsizing is only gonna affect the elements inside of the body tag */
+    body {
+        margin:0;
+    }

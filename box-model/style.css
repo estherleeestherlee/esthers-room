@@ -14,8 +14,9 @@ body {
     height: 200px; /* making content */
     padding: 30px;
     border: 10px solid chartreuse;
-    margin: 50px;
-} 
+    margin: 50px auto;
+    font-family: 'Dancing Script', cursive;
+}
 
 .border {
     background-color: rgb(61, 139, 78);
