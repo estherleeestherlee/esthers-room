@@ -19,6 +19,8 @@
     background: lightgreen;
     bottom: 100px;
     left: 100px;
+    z-index: 5;
+    /* why we have the letter z here? index dictating where we wanted to place the elembet be */
    }
 
    .fixed {
@@ -26,6 +28,8 @@
     background: lightpink;
     bottom: 20px;
     right: 20px;
+    width: 500px;
+    z-index: 10;
    }
 
    .absolute {

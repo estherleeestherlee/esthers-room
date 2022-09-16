@@ -1,0 +1,26 @@
+* {
+    box-sizing: boarder-box;
+} /*short hand for everything (every element on the page) difference between body and box-sizing & * { is boxsizing is only gonna affect the elements inside of the body tag */
+    body {
+        margin:0;
+    }
+
+    .container {
+        background: lightgreen;
+        height: 400px;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* flex-flow: row wrap; you can use this than flex-wrap */
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 20px;
+    }
+    .item{
+        background: lightyellow;
+        padding: 20px;
+        border: 1px solid orange;
+        width: 200px;
+    }
