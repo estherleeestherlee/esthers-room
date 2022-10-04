@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>animation</title>
+        <meta name="description" content="Experience an After Dark-Style Message scree~">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+   <style>
+    body {
+                background-image: url(./image/bgimage.png);
+                background-repeat: no-repeat;
+                background-size: 2000px;
+            }
+            .message {
+                display: block;
+                width: 467px;
+                margin: 0;
+                color: white;
+                position: absolute;
+                font-size: 20px;
+                -webkit-animation: moveX 8s linear 0s infinite alternate, moveY 17.3s linear 0s infinite alternate;
+                -moz-animation: moveX 8s linear 0s infinite alternate, moveY 17.3s linear 0s infinite alternate;
+                animation: moveX 8s linear 0s infinite alternate, moveY 17.3s linear 0s infinite alternate;
+
+            }
+            @media screen and (max-width:100vw){
+                .message{
+                    width: 100vw;
+                    height: 100vh;
+                }
+            }
+            .message {
+                display: block;
+                margin: 0;
+                color: rgb(13, 194, 0);
+                position: absolute;
+                font-size: 50px;
+                animation: moveX 8s linear 0s infinite alternate, moveY 17.3s linear 0s infinite alternate;
+            }
+   </style>
+    <body>
+        <h1 class="message">Why are you staring at my screen?</h1>
+        
+    <div class="main-container">
+        <img class="hand1" src="./image/humanhand.png">
+        <img class="hand2" src="./image/dragonhand.png">
+        <img class="hand3" src="./image/computerhand.png">
+        <img class="hand4" src="./image/cathand.png">
+    </div>
+    </body>
+</html>
+

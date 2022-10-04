@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.hand1 {
+    width: 60vw;
+    height: 70vh;
+    align-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: left 2s infinite alternate;
+}
+@keyframes left {
+    0% {
+        transform: translate(-50%,-50%);
+    }
+    100% {
+        transform: translate(-200%,-50%);
+    }
+}
+
+.hand2 {
+    width: 60vw;
+    height: 70vh;
+    align-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: right 2s infinite alternate;
+}
+@keyframes right {
+    0% {
+        transform: translate(-50%,-50%);
+    }
+    100% {
+        transform: translate(100%,-50%);
+    }
+}
+
+.hand3 {
+    width: 50vw;
+    height: 70vh;
+    align-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: top 2s infinite alternate;
+}
+@keyframes top {
+    0% {
+        transform: translate(-50%,-50%);
+    }
+    100% {
+        transform: translate(-50%,100%);
+    }
+}
+.hand4 {
+    width: 50vw;
+    height: 70vh;
+    align-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: bottom 2s infinite alternate;
+}
+@keyframes bottom {
+    0% {
+        transform: translate(-50%,-50%);
+    }
+    100% {
+        transform: translate(-50%,-200%);
+    }
+}
+    h1 {
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    @keyframes moveX {
+        0%{
+            left:0;
+        }
+        100%{
+            left: calc(100% - 160px);
+        }
+    }
+    @keyframes moveY{
+        0%{
+            top: 0;
+        }
+        100% {
+            top: calc(100% - 85px);
+        }
+    }

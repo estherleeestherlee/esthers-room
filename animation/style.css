@@ -1,0 +1,116 @@
+* {
+    box-sizing: boarder-box;
+} /*short hand for everything (every element on the page) difference between body and box-sizing & * { is boxsizing is only gonna affect the elements inside of the body tag */
+    body {
+        margin:0;
+        background-color: darkolivegreen;
+        /* max-width: 100vw;
+        max-height: 100vh; */
+        overflow: hidden;
+    }
+    .flex {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-around;
+        /* space-between can push objects to the end of the screen */
+    }
+    .circle {
+        width: 300px;
+        height: 300px;
+        background-color: azure;
+        border-radius: 50%;
+        animation-name: pulse;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        
+        /* animation short-hand is like this ->
+        animation: pulse 2s infinite alternate ease-out; first time value is gonna be a duration and the next time value (second one) is gonna be a delay */
+    }
+
+    .square {
+        width: 300px;
+        height: 300px;
+        background-color: azure;
+        animation: spin 4s infinite linear;
+    }
+
+    .mover {
+        width: 200px;
+        height: 50px;
+        background-color: azure;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+
+        animation: move 4s infinite;
+    }
+
+    .hard-boiled-egg {
+        background-color: azure;
+        width: 50px;
+        height: 80px;
+        border-radius: 50% 50% 30% 30%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        animation: egg-move 5s infinite alternate, egg-scale 1s infinite alternate;
+        
+    }
+    .shell {
+        animation: spin 3s infinite linear;
+    }
+
+    @keyframes pulse {
+        0% {
+            background-color: azure;
+            width: 300px;
+            height: 300px;
+            transform: scale(1);
+        }
+        100% {
+            background-color:  tomato;
+            transform: scale(1.3);
+        }
+    }
+    @keyframes spin {
+        0% {
+            transform: rotate(0);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes move {
+        0% {
+            transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes egg-move {
+    0% {
+        top:0;
+        left:0;
+    }
+    100% {
+        top: 90vh;
+        left: 90vw;
+    }
+}
+
+@keyframes egg-scale {
+    0% {
+        background-color: azure;
+        transform: scale(1) translate(0,0);
+    }
+    100% {
+        background-color: rgb(229, 168, 133);
+        transform: scale(1.5);
+    }
+}
