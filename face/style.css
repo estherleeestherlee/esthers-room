@@ -3,22 +3,32 @@
 } /*short hand for everything (every element on the page) difference between body and box-sizing & * { is boxsizing is only gonna affect the elements inside of the body tag */
     
     @media screen and (max-width:800px) {
-        .desktop-box {
-            display: none;
+        
+        .small {
+            display: block;}
+            
+            .small {
+                text-align: center;
+                padding: 10px;
+                margin-bottom: 10px;
+                font-size: 50px;
         }
-        .mobile-box {
-            font-size: 24px;
-        }
+        
         
         
     }
 
     @media screen and (max-wdith: 1100px) {
-        .mobile-box {
-            display: hide;
-        
+            .big {
+                display: block;
+            }
+            .big {
+                text-align: center;
+                padding: 10px;
+                margin-bottom: 10px;
+                font-size: 50px;
+            }
         }
-    }
 
     @media screen and (max-width: 1900px) {
     .desktop-box {

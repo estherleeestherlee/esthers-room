@@ -12,8 +12,8 @@ body {
 
 @media screen and (max-width:1900px) {
     .sponge4 {
-        display: block;
-        justify-items: center;
+        display: none;
+        
         
     }
     .sponge3 {
@@ -25,10 +25,11 @@ body {
     }
     
     .sponge1 {
-        display: none;
+        display: block;
+        justify-items: center;
     }
 
-    .thanks {
+    .water {
         display: block;
         text-align: center;
         padding: 10px;
@@ -40,22 +41,22 @@ body {
         display: none;
     }
 
-    .water {
+    .thanks {
         display: none;
     }
 }
 @media screen and (max-width:1600px) {
-    .sponge4 {
+    .sponge1 {
         display: none;
         justify-items: center;
     }
     
-    .sponge3 {
+    .sponge2 {
         display: block;
         justify-items: center;
     }
 
-    .thanks {
+    .water {
         display: block;
         text-align: center;
         padding: 10px;
@@ -68,18 +69,18 @@ body {
         display: none;
     }
 
-    .water {
+    .thanks {
         display: none;
     }
 
 }
 
 @media screen and (max-width:1100px) {
-    .sponge3 {
+    .sponge2 {
         display: none;
         justify-items: center;
     }
-    .sponge2 {
+    .sponge3 {
         display: block;
         justify-items: center;
     }
@@ -91,26 +92,34 @@ body {
     .water {
         display: none;
     }
+    .squeeze {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 50px;
+    }
 }
 @media screen and (max-width:800px) {
-    .sponge1 {
+    .sponge4 {
         display: block;
         justify-items: center;
     }
-    .sponge2 {
+    .sponge3 {
         display: none;
         justify-items: center;
     }
 
-    .water {
+    .thanks {
         display: block;
     }
-    .water {
+    .thanks {
         text-align: center;
         padding: 10px;
         margin-bottom: 10px;
         font-size: 50px;
 }
+    
 }
 
 
