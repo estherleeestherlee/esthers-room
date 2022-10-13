@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: block;
+    margin: 0;
+    background: url(sink.jpg) center fixed;
+    background-size: cover;
+}
+
+
+
+@media screen and (max-width:1900px) {
+    .sponge4 {
+        display: block;
+        justify-items: center;
+        
+    }
+    .sponge3 {
+        display: none;
+    }
+
+    .sponge2 {
+        display: none;
+    }
+    
+    .sponge1 {
+        display: none;
+    }
+}
+@media screen and (max-width:1600px) {
+    .sponge4 {
+        display: none;
+        justify-items: center;
+    }
+    
+    .sponge3 {
+        display: block;
+        justify-items: center;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .sponge3 {
+        display: none;
+        justify-items: center;
+    }
+    .sponge2 {
+        display: block;
+        justify-items: center;
+    }
+}
+@media screen and (max-width:800px) {
+    .sponge1 {
+        display: block;
+        justify-items: center;
+    }
+    .sponge2 {
+        display: none;
+        justify-items: center;
+    }
+}

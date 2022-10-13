@@ -1,0 +1,88 @@
+* {
+    box-sizing: boarder-box;
+} /*short hand for everything (every element on the page) difference between body and box-sizing & * { is boxsizing is only gonna affect the elements inside of the body tag */
+    body {
+        margin:20px;
+        background-color: rgb(209, 209, 121);
+        transition: background-color 2s;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    header {
+        background-color: blanchedalmond;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    main {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    main nav, main div {
+        padding: 10px;
+        background-color: blanchedalmond;
+    }
+
+    nav, .details {
+        width: 25%;
+    }
+
+    .center {
+        width: 50%;
+    }
+
+    footer {
+        padding: 10px;
+        background-color: rgb(187, 207, 239);
+        text-align: center;
+    }
+
+    .secret {
+        text-align: center;
+        background-color: rgb(255, 91, 91);
+        font-size: 20px;
+        border-radius: 50%;
+        padding: 20px;
+        margin-bottom: 10px;
+        display: none;
+    }
+
+    @media screen and (max-width:800px) {
+        body {
+            background-color: rgb(136, 136, 187);
+        }
+        main {
+            flex-wrap:wrap;
+        }
+        nav, .center, .details {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        body {
+            background-color: rgb(216, 131, 99);
+            font-size: 200%;
+        }
+    }
+
+    .secret {
+        display: block;
+    }
+    /* min-width is the reverse version to the max-sidth mobile first responsive */
+    /* seo means search engine optimiztion  */
+    /* class needs to have a . before editing inside of the { } */
+
+    /* min-width = mobile-first design
+    more scaleable it is easier to create product or website starting from the small size ex phone / vertical format size
+    constrained form (result is most sites now look the same)*/
+    /* max-width = desktop design
+    more work to make responsive
+    can make more complex design and stuff
+    more diverse forms and layouts */

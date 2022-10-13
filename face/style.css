@@ -1,0 +1,96 @@
+* {
+    box-sizing: boarder-box;
+} /*short hand for everything (every element on the page) difference between body and box-sizing & * { is boxsizing is only gonna affect the elements inside of the body tag */
+    
+    @media screen and (max-width:800px) {
+        .desktop-box {
+            display: none;
+        }
+        .mobile-box {
+            font-size: 24px;
+        }
+        
+        
+    }
+
+    @media screen and (max-wdith: 1100px) {
+        .mobile-box {
+            display: hide;
+        
+        }
+    }
+
+    @media screen and (max-width: 1900px) {
+    .desktop-box {
+        font-size: 24px;
+        color: blue;}
+   
+    
+    }
+
+   
+   
+
+
+.desktop-box {
+    background-color: brown;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width:1900px) {
+    .wholebody {
+        display: block;
+        justify-items: center;
+        
+    }
+    .hair {
+        display: none;
+    }
+
+    .face {
+        display: none;
+    }
+    
+    .eyes {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .wholebody {
+        display: none;
+        justify-items: center;
+    }
+    
+    .hair {
+        display: block;
+        justify-items: center;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .hair {
+        display: none;
+        justify-items: center;
+    }
+    .face {
+        display: block;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .eyes {
+        display: block;
+        justify-items: center;
+    }
+    .face {
+        display: none;
+        justify-items: center;
+    }
+}
