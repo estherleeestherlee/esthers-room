@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+        <title>control</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="icon.png">
+    </head>
+    <style>
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          min-width: 160px;
+          z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        
+        .desc {
+          padding: 15px;
+          text-align: center;
+        }
+        </style>
+    <body>
+        <p>&larr; style us up! &rarr;</p>
+        
+        
+        
+        <button id="reveal-btn">reveal the masks!</button>
+    <div class="heros">
+        <div class="container">
+            <img class="batman" src="batman.png">
+        </div>
+        <div class="container">
+            <img class="spiderman" src="spiderman.png">
+        </div>
+        
+        <div class="container">
+            <img class="ironman" src="ironman.png">
+        </div>
+        <div class="container">
+            <img class="catwoman" src="catwoman.png">
+        </div>
+        <div class="container">
+            <div class="dropdown">
+                <img class="gamora" src="gomora.png">
+                <div class="dropdown-content"><img class="nomask" src="nomask.png" width="300" height="200">
+                    <div class="desc">i don't need it :p</div></div>
+                
+                </div>
+        </div>
+        </div>
+        
+            
+        
+
+        <img class="chair draggable" src="batman-mask.png" alt="vector image of a wooden chair">
+        <img class="chair draggable" src="spiderman-mask.png" alt="vector image of a wooden chair">
+        <img class="chair draggable" src="ironman-mask.png" alt="vector image of a wooden chair">
+        <img class="chair draggable" src="catwoman-mask.png" alt="vector image of a wooden chair">
+
+        <script src="jquery-3.6.1.min.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>

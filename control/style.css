@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'dsfont', Fallback, 'Times New Roman', Times, serif;
+}
+p {text-align: center;}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-gap: 0.75em;
+  max-width: 1000px;
+  
+
+}
+
+.grid-item {
+    border: 1px solid black;
+    height: 100px;
+    padding: 00.75em;
+    color: aqua;
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
