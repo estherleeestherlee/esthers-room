@@ -1,11 +1,11 @@
 body {
     background-color: rgb(172, 227, 206);
-    background-image: linear-gradient(lightgreen, white);
+    background-image: repeating-linear-gradient(lightgreen, white 10%, lightgreen 20%);
     
 
 }
 
-.cursor-line {
+/* .cursor-line {
     position: fixed;
     top: 0;
     left: 0;
@@ -37,4 +37,4 @@ body {
 
 #svg5 line {
     stroke: #ff00733c;
-}
+} */
