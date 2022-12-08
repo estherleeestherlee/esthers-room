@@ -4,3 +4,37 @@ body {
     
 
 }
+
+.cursor-line {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    z-index: 7;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.cursor-line line {
+    stroke: #ff646453;
+    stroke-width: 40;
+    stroke-linecap:unset;
+}
+
+#svg2 line {
+    stroke: #ffbcbc69;
+}
+
+#svg3 line {
+    stroke: #ca98ff5a;
+}
+
+#svg4 line {
+    stroke: #ff00e13c;
+}
+
+#svg5 line {
+    stroke: #ff00733c;
+}
