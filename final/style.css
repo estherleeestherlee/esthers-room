@@ -4,6 +4,11 @@ body {
     color: aliceblue;
     background: rgba(0,0,0,0.8);
     /* margin-top: 5%; */
+
+    background: url(./handmade-web2.png);
+        
+    
+    
 }
 
 
@@ -168,7 +173,7 @@ overflow: hidden;
  background: #95ce87;
  color: rgb(0, 0, 0);
  font-weight:bold;
- font-size:20px;
+ font-size:30px;
  border: 1px solid black;
 }
   
@@ -402,15 +407,15 @@ input {
   }
   
   .title {
-    font-family:fantasy;
-    font-weight: 800;
+    font-family:"Courier New", Courier, "Lucida Sans Typewriter";
+    font-weight: 700;
     font-size: 2.7vw;
     /* text-transform: uppercase; */
   }
 
   .sub {
-    font-family:fantasy;
-    font-weight: 400;
+    font-family:"Courier New", Courier, "Lucida Sans Typewriter";
+    font-weight: 300;
     font-size: 1.5vw;}
 /* .animate-charcter
 {
