@@ -68,3 +68,19 @@ article .box4 {
     align-items: center;
     
 }
+
+article .box5 {
+    border-radius: 4%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    width: 1000px;
+    height: 380px;
+    margin-bottom: auto;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
