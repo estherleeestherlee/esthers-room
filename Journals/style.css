@@ -1,15 +1,63 @@
 body {
     background-color: rgb(172, 227, 206);
-    background-image: repeating-linear-gradient(rgb(139, 139, 139), white 10%);
+    background-image: repeating-linear-gradient(rgb(180, 180, 180), white 10%, rgb(180, 180, 180) 20%);
     
 
 }
 
-article .box {
+article .box1 {
     border-radius: 4%;
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
     width: 1000px;
     height: 400px;
+    margin-bottom: auto;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+article .box2 {
+    border-radius: 4%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    width: 1000px;
+    height: 500px;
+    margin-bottom: auto;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+article .box3 {
+    border-radius: 4%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    width: 1000px;
+    height: 500px;
+    margin-bottom: auto;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+article .box4 {
+    border-radius: 4%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    width: 1000px;
+    height: 380px;
     margin-bottom: auto;
     margin-top: 4px;
     margin-left: auto;
